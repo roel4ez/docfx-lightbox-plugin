@@ -1,0 +1,38 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "artifacts/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "artifacts/**"
+        ]
+      }
+    ],
+    "dest": "artifacts",
+    "globalMetadata":{
+    },
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "../templates/lightbox-featherlight"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false
+  }
+}
