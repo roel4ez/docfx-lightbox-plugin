@@ -29,7 +29,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "../templates/lightbox-featherlight"
+      "../../templates/lightbox-featherlight"
     ],
     "postProcessors": [],
     "noLangKeyword": false,
