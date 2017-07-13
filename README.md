@@ -8,7 +8,7 @@ The first version of this template uses the jQuery [Featherlight](https://noelbo
 jQuery and the featherlight libraries are loaded from the public CDN.
 
 # Usage
-To use this template, you need to add it to your repository, and add the following to your `docfx.json` file:
+To use this template, you need to add it to your repository in the `templates` folder, and add the following to your `docfx.json` file:
 
 ```json
    "template": [
@@ -16,3 +16,7 @@ To use this template, you need to add it to your repository, and add the followi
       "templates/lightbox-featherlight"
     ]
 ```
+
+# Demo
+
+A sample can be found in the `demo` folder. It uses a relative path to the `templates` folder. 
