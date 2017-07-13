@@ -10,7 +10,9 @@ jQuery and the featherlight libraries are loaded from the public CDN.
 # Usage
 To use this template, you need to add it to your repository, and add the following to your `docfx.json` file:
 
+```json
    "template": [
       "default",
       "templates/lightbox-featherlight"
-    ],
+    ]
+```
